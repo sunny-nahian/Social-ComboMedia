@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunny.bsdproject1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PinterestActivity"></activity>
+        <activity android:name=".TikTokActivity" />
+        <activity android:name=".MessengerActivity" />
+        <activity android:name=".ImoActivity" />
+        <activity android:name=".ChromeActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <!--<activity android:name=".UserProfileActivity" />-->
+        <!--<activity android:name=".SocialCombomediaActivity" />-->
+        <!--<activity android:name=".GridViewActivity" />-->
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginForm"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".FacebookActivity" />
+        <activity android:name=".WhatsappActivity" />
+        <activity android:name=".InstaActivity" />
+        <activity android:name=".LinkedinActivity" />
+        <activity android:name=".SkypeActivity" />
+        <activity android:name=".YoutubeActivity" />
+        <activity android:name=".SnapchatActivity" />
+        <activity android:name=".TwitterActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

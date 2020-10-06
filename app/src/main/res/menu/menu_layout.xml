@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Sign Out"
+        android:id="@+id/idsignout"
+        />
+    <item
+        android:title="Change Password"
+        android:id="@+id/idchangepassword"
+        />
+    <item
+        android:title="Deactivate Account"
+        android:id="@+id/idDeactivatemenu"
+        />
+
+    <item
+        android:title="About us"
+        android:id="@+id/idabout"
+        />
+
+</menu>

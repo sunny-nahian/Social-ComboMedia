@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Social ComboMedia</string>
+    <!--<string name="facebook_app_id">2819351661441317</string>-->
+
+    <string name="exit_title">Social ComboMedia</string>
+    <string name="exit_text">Do you want to exit ?</string>
+
+
+    <string name="option1">Chrome</string>
+    <string name="option2">Facebook</string>
+    <string name="option3">Youtube</string>
+    <string name="option4">Messenger</string>
+    <string name="option5">What`s App</string>
+    <string name="option6">imo</string>
+    <string name="option7">Instragram</string>
+    <string name="option8">Skype</string>
+    <string name="option9">Linkedin</string>
+    <string name="option10">Twitter</string>
+    <string name="option11">TikTok</string>
+    <string name="option12">Snapchat</string>
+    <string name="option13">Pinterest</string>
+    <string name="option14">More+</string>
+
+
+    <!--(ArrayAdapter)Data Source for ListView-->
+    <string-array name="Country_name">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Brazil</item>
+        <item>France</item>
+        <item>Portugal</item>
+        <item>Italy</item>
+        <item>Argentina</item>
+        <item>Germany</item>
+    </string-array>
+    <!--(ArrayAdapter) End Data Source for ListView-->
+
+
+    <!--(CustomAdapter)Data Source for ListView-->
+    <string-array name="Country_desc">
+        <item>Click here see the Bangladesh details.... </item>
+        <item>Click here see the India details....</item>
+        <item>Click here see the Pakistan details....</item>
+        <item>Click here see the Brazil details....</item>
+        <item>Click here see the France details....</item>
+        <item>Click here see the Portugal details....</item>
+        <item>Click here see the italy details....</item>
+        <item>Click here see the Argentina details....</item>
+        <item>Click here see the Germany details....</item>
+    </string-array>
+    <!--(CustomAdapter) End Data Source for ListView-->
+
+    <!--(CardView inside GridView)Data Source for GridView-->
+    <string-array name="Social_name">
+        <item>Chrome</item>
+        <item>Facebook</item>
+        <item>What`s App</item>
+        <item>Youtube</item>
+        <item>Messenger</item>
+        <item>Instragram</item>
+        <item>Skype</item>
+        <item>Linkedin</item>
+        <item>Twitter</item>
+        <item>Imo</item>
+        <item>Viber</item>
+        <item>TikTok</item>
+        <item>Snapchat</item>
+
+    </string-array>
+    <!--(CardView inside GridView) END Data Source for GridView-->
+
+</resources>

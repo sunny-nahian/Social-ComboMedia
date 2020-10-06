@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    android:padding="5dp"
+    android:weightSum="3.5"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewChrome"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/chrome" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewFb"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/facebook" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option2"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewYouTube"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/youtube_main" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option3"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewMessenger"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/messenger" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option4"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewWhatsApp"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/whatsapp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option5"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewImo"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/imo_main" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option6"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linear_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewInsta"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/instagram1" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option7"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewSkype"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/skype" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option8"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linear_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewLinkedin"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="182dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:src="@drawable/linkedin" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option9"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewTwiter"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/twitter1" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option10"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linear_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:id="@+id/idCardViewSnap"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/snap_main" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option12"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewTikTok"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/twit" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option11"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linear_layout7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:id="@+id/idCardViewPinterest"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/pinterest" />
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option13"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardViewMore"
+                app:cardCornerRadius="25dp"
+                android:background="@color/background_transparent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFF0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:padding="10dp"
+                        android:src="@drawable/plus"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/option14"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                        app:fontFamily="@font/alfa_slab_one" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

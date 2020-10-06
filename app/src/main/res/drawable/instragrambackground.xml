@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="10dp">
+
+    <gradient
+        android:startColor="@color/instragram_background"
+        android:endColor="@color/instragram_background"
+        android:angle="45"
+        android:dither="true"
+        />
+    <corners android:radius="25dp"/>
+</shape>
