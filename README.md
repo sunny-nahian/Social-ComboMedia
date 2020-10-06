@@ -24,7 +24,7 @@ It is a Social media application. In this app i added everyday useable communica
 
 
 
-![Social-ComboMedia6](https://user-images.githubusercontent.com/59596434/95189213-63549d80-07ef-11eb-85b2-a874537bc1e3.png)![Social-ComboMedia7](https://user-images.githubusercontent.com/59596434/95189236-6bacd880-07ef-11eb-98e4-c11d625ea440.png)
+![Social-ComboMedia6](https://user-images.githubusercontent.com/59596434/95189213-63549d80-07ef-11eb-85b2-a874537bc1e3.png)+![Social-ComboMedia7](https://user-images.githubusercontent.com/59596434/95189236-6bacd880-07ef-11eb-98e4-c11d625ea440.png)
 
 ![Social-ComboMedia8](https://user-images.githubusercontent.com/59596434/95189274-77000400-07ef-11eb-8d27-fcb8bf3746ca.png)
 ![Social-ComboMedia9](https://user-images.githubusercontent.com/59596434/95189287-7bc4b800-07ef-11eb-948c-7b03fdd7d7b8.png)
