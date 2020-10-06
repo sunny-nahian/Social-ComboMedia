@@ -9,7 +9,7 @@ It is a Social media application. In this app i added everyday useable communica
 
 #### App mobile icon view -
 ![rsz_61social_combomedia1](https://user-images.githubusercontent.com/59596434/95192563-3951aa00-07f4-11eb-8315-429ac5415c5f.png)
-
+![rsz_social_combomedia1](https://user-images.githubusercontent.com/59596434/95193949-6c953880-07f6-11eb-8b75-0f04bb3db867.png)
 #### Splash screen-
 ![rsz_social-combomedia2](https://user-images.githubusercontent.com/59596434/95192812-8cc3f800-07f4-11eb-989c-4ea7200a792e.png)
 
