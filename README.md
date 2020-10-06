@@ -4,10 +4,10 @@
 It is a Social media application. In this app i added everyday useable communication platform which will make your daily use more than easier......
 
 ## Uses Framework:
-Java\n
-Sharedpreference\n
-Firebase Console\n
-......
+git commit -m "this is
+> a line
+> with new lines
+> maybe"
 
 ## System views:
 ### App icon -
