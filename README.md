@@ -23,15 +23,7 @@ It is a Social media application. In this app i added everyday useable communica
 ![Social-ComboMedia5](https://user-images.githubusercontent.com/59596434/95189189-589a0880-07ef-11eb-9cbd-37dc66741698.png)
 
 
-
-![Social-ComboMedia6](https://user-images.githubusercontent.com/59596434/95189213-63549d80-07ef-11eb-85b2-a874537bc1e3.png)*![Social-ComboMedia7](https://user-images.githubusercontent.com/59596434/95189236-6bacd880-07ef-11eb-98e4-c11d625ea440.png)
-
-![Social-ComboMedia8](https://user-images.githubusercontent.com/59596434/95189274-77000400-07ef-11eb-8d27-fcb8bf3746ca.png)
-![Social-ComboMedia9](https://user-images.githubusercontent.com/59596434/95189287-7bc4b800-07ef-11eb-948c-7b03fdd7d7b8.png)
-![Social-ComboMedia10](https://user-images.githubusercontent.com/59596434/95189296-7e271200-07ef-11eb-8fe6-7947304b8f00.png)
-
-
-![Webp net-resizeimage](https://user-images.githubusercontent.com/59596434/95190854-b7f91800-07f1-11eb-818a-8219e0de2bd6.jpg)
+![rsz_41social_combomedia1](https://user-images.githubusercontent.com/59596434/95192003-6487c980-07f3-11eb-9a2e-901b216cb47c.png)
 
 
 
