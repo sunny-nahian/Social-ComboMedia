@@ -11,7 +11,7 @@ It is a Social media application. In this app i added everyday useable communica
 ![rsz_61social_combomedia1](https://user-images.githubusercontent.com/59596434/95192563-3951aa00-07f4-11eb-8315-429ac5415c5f.png)
 
 #### Splash screen-
-
+![rsz_social-combomedia2](https://user-images.githubusercontent.com/59596434/95192812-8cc3f800-07f4-11eb-989c-4ea7200a792e.png)
 
 #### Lohin page-
 
