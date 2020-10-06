@@ -32,7 +32,7 @@ It is a Social media application. In this app i added everyday useable communica
 ![rsz_social-combomedia9](https://user-images.githubusercontent.com/59596434/95195096-e679f180-07f7-11eb-8be0-344448c85c93.png)
 
 ### Browses -
-![rsz_social-combomedia4](https://user-images.githubusercontent.com/59596434/95195100-e7128800-07f7-11eb-85eb-ec359af9ae6a.png)
+![rsz_social-combomedia8](https://user-images.githubusercontent.com/59596434/95196184-8d12c200-07f9-11eb-80ca-7b78daa7f991.png)
 
 ### Browses -
 ![rsz_social-combomedia10](https://user-images.githubusercontent.com/59596434/95195118-eb3ea580-07f7-11eb-864b-0bd0ec7a54bb.png)
