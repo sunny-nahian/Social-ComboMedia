@@ -4,6 +4,9 @@
 It is a Social media application. In this app i added everyday useable communication platform which will make your daily use more than easier......
 
 ## Uses Framework:
+-Java
+-sharedpreference
+-Firebase console
 
 ## **System views:**
 ### _App icon_ -
@@ -59,5 +62,20 @@ for code:
   var name = "Sunny"
   console.log(name)
 '''
+
+For table:
+
+|Table| Goes | here |
+|-----| ---- | ---- |
+| one | two | three |
+
+
+>this part i test myself
+
+1.list one
+2.List two
+
+---
+***
 
 
