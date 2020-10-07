@@ -4,10 +4,10 @@
 It is a Social media application. In this app i added everyday useable communication platform which will make your daily use more than easier......
 
 ## Uses Framework:
--**Java** <br/>
--**sharedpreference** <br/>
--**Firebase console** <br/>
-**....** 
+-**Java.** <br/>
+-**sharedpreference.** <br/>
+-**Firebase console.** <br/>
+    **....** 
 <br/>
 
 ## **System views:**
@@ -50,29 +50,29 @@ It is a Social media application. In this app i added everyday useable communica
 
 
 
-## ~~This part totally for me not you~~
-_for italic_
-**Strong/Bold**
-links:
-[Click here](https://www.facebook.com/naymurrahman.sunny"sorry this is empty test")
-Images:
-![Picture](Social-ComboMedia9.png"this is me")
-Use 'for' loop
+## ~~This part totally for me not you~~  <br/>
+_for italic_  <br/>
+**Strong/Bold**  <br/>
+links: <br/>
+[Click here](https://www.facebook.com/naymurrahman.sunny"sorry this is empty test")  <br/>
+Images:  <br/>
+![Picture](Social-ComboMedia9.png"this is me")  <br/>
+Use 'for' loop  <br/>
 
-for code:
+for code: <br/>
 '''Javascript
   var name = "Sunny"
   console.log(name)
 '''
-
-For table:
+<br/>
+For table:  <br/>
 
 |Table| Goes | here |
 |-----| ---- | ---- |
 | one | two | three |
 
-
->this part i test myself
+<br/>
+>this part i test myself  <br/>
 
 1.list one
 2.List two
