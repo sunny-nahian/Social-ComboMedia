@@ -48,7 +48,7 @@ It is a Social media application. In this app i added everyday useable communica
 <br/>
 <br/>
 <br/>
-                                        ** Thanks for Visiting me **
+                                                     **Thanks for Visiting me**
 
 
 
