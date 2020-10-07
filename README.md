@@ -16,7 +16,7 @@ It is a Social media application. In this app i added everyday useable communica
 
 ### _App mobile icon view_ -
 
-<img class="img-responsive" ![rsz_social_combomedia1](https://user-images.githubusercontent.com/59596434/95193949-6c953880-07f6-11eb-8b75-0f04bb3db867.png)"/>
+<img class="img-responsive" (https://user-images.githubusercontent.com/59596434/95193949-6c953880-07f6-11eb-8b75-0f04bb3db867.png)"/>
 
 ### _Splash screen_ -
 ![rsz_1social-combomedia2](https://user-images.githubusercontent.com/59596434/95194094-acf4b680-07f6-11eb-9ebf-5950dafe8d63.png)
