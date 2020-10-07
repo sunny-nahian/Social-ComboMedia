@@ -7,7 +7,7 @@ It is a Social media application. In this app i added everyday useable communica
 -**Java.** <br/>
 -**sharedpreference.** <br/>
 -**Firebase console.** <br/>
-    **....** 
+    
 <br/>
 
 ## **System views:**
