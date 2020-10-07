@@ -45,41 +45,11 @@ It is a Social media application. In this app i added everyday useable communica
 ![rsz_social-combomedia10](https://user-images.githubusercontent.com/59596434/95195118-eb3ea580-07f7-11eb-864b-0bd0ec7a54bb.png)
 
 
-
-
-
-
-<!-
-## ~~This part totally for me not you~~  <br/>
-_for italic_  <br/>
-**Strong/Bold**  <br/>
-links: <br/>
-[Click here](https://www.facebook.com/naymurrahman.sunny"sorry this is empty test")  <br/>
-Images:  <br/>
-![Picture](Social-ComboMedia9.png"this is me")  <br/>
-Use 'for' loop  <br/>
-
-for code: <br/>
-'''Javascript
-  var name = "Sunny"
-  console.log(name)
-'''
 <br/>
-For table:  <br/>
-
-|Table| Goes | here |
-|-----| ---- | ---- |
-| one | two | three |
-
 <br/>
->this part i test myself  <br/>
+<br/>
+                                        ** Thanks for Visiting me **
 
-1.list one
-2.List two
 
----
-***
-test
-***
 
-->
+
