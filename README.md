@@ -49,7 +49,7 @@ It is a Social media application. In this app i added everyday useable communica
 
 
 
-
+<!-
 ## ~~This part totally for me not you~~  <br/>
 _for italic_  <br/>
 **Strong/Bold**  <br/>
@@ -82,4 +82,4 @@ For table:  <br/>
 test
 ***
 
-
+->
